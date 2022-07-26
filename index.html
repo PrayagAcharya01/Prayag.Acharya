@@ -12,6 +12,7 @@
       document.getElementById("FORM").reset();
     }
   </script>
+
   <!--
     - favicon
   -->
@@ -28,6 +29,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+
 </head>
 
 <body>
@@ -53,7 +56,8 @@
         <div class="info-content">
           <h1 class="name" title="Prayag Acharya">Prayag Acharya</h1>
 
-          <p class="title">Bug Hunter</p>
+          <p class="title">Infosec</p>
+          <p class="title">Pentester</p>
           <p class="title">Android Developer</p>
           
         </div>
@@ -473,7 +477,7 @@
 
             <li class="clients-item">
               <a href="https://portswigger.net/burp">
-                <img src="./assets/images/Logo-1-Burp.png" alt="client logo">
+                <img src="./assets/images/logo-1-Burp.png" alt="client logo">
               </a>
             </li>
 
@@ -733,12 +737,20 @@
 
             </button>
 
+          <!-- <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Projects</button>
+              </li>
+
+            </ul> -->
+
           </div>
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="IOT">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Projects">
+              <a href="https://github.com/PrayagAcharya01/CMSvul">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -767,7 +779,7 @@
                 </figure>
 
                 <h3 class="project-title">Keylogger</h3>
-
+                <p class="project-category">Sorce is not publicly available.</p>
                 <p class="project-category">Infosec Tools</p>
 
               </a>
@@ -775,7 +787,7 @@
 
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href="https://github.com/PrayagAcharya01/smart-hospital-management-system">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -793,7 +805,7 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+              <a href="https://github.com/PrayagAcharya01/Milk-Delivery-Application">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -811,7 +823,7 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href="https://github.com/PrayagAcharya01/Intelights">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -1052,7 +1064,7 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="javascript:javascript:myfunction()" id="FORM" class="form" method="post" enctype="application/x-www-form-urlencoded" data-form>
+          <form action="javascript:myfunction()" id="FORM" class="form" method="post" enctype="multipart/form-data" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -1062,7 +1074,7 @@
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button class="form-btn" type="submit"  disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
@@ -1085,14 +1097,13 @@
   <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+ <script src="./assets/js/script.js"></script>
 
   <!--
     - ionicon link
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
 
 </html>
