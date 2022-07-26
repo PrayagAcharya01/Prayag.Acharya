@@ -6,7 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Prayag Acharya</title>
-
+  <script>
+    function myfunction(){
+      alert("Thank You for Getting in Touch");
+      document.getElementById("FORM").reset();
+    }
+  </script>
   <!--
     - favicon
   -->
@@ -1047,7 +1052,7 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="javascript:alert('Thank You For getting in touch');" class="form" method="post" enctype="application/x-www-form-urlencoded" data-form>
+          <form action="javascript:javascript:myfunction()" class="form" method="post" enctype="application/x-www-form-urlencoded" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
